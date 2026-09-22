@@ -1,0 +1,27 @@
+{
+  "name": "medichain-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:http": "vite --mode http",
+    "stub": "node backend-stub/server.mjs",
+    "build": "vite build",
+    "preview": "vite preview",
+    "contract-test": "node contract-test/run.mjs"
+  },
+  "dependencies": {
+    "html5-qrcode": "^2.3.8",
+    "jspdf": "^4.2.1",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}
