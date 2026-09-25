@@ -1,4 +1,4 @@
-# MediChain: medicine anti-counterfeit system (frontend, ready for the backend)
+# MediChain: medicine anti-counterfeit system 
 
 Manufacturer portal, supply chain tracking, medicine verification, admin dashboard, anomaly alerts, recall and expiry, in one React app.
 
@@ -94,10 +94,6 @@ PK014 and FAKE-9999 suspicious, "PK013 (forged QR)" suspicious (signature does n
 6. The dashboard shows the alert; the supply chain page now blocks transfers for that batch.
 
 "Reset demo data" on the dashboard starts again. Set `VITE_MOCK_LATENCY=0` in `.env` for instant responses.
-
-## Handing over to the backend developer
-Send them the whole project and tell them to start with `API_CONTRACT.md`. It lists every endpoint, the JSON shapes,
-the verification and supply chain rules, who may call what, and a checklist. They do not need to read the screens.
 
 ## Notes
 - Camera scanning works on `localhost` (laptop webcam). Phones need https for the camera; typing the Pack ID always works.
